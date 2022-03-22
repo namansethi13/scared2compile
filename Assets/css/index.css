@@ -1,14 +1,32 @@
-#header
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rubik&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+
+.container-fluid
 {
-    background-color: yellow;
+    background-color: #ffce47;
+    border-bottom: 2px solid black;
+
 }
 
-.headerbtn
+
+ .name{
+     margin-top: 1%;
+     margin-left: 5%;
+     display: inline-block;
+     font-family: 'Manrope', sans-serif;
+     font-size: 300%;
+     font-weight: 600;
+ }
+.header-btn
 {
-    background-color : yellow;
-    filter: drop-shadow(0px 0px 4px black);
+    
+    filter: drop-shadow(0px 5px 4px black);
 }
 
+.btn-container{
+    margin-left: 80%;
+    display: flex;
+    justify-content: space-between;
+}
 .headerbtn:hover
 {
     color : yellowgreen;
