@@ -14,3 +14,12 @@ body::before {
 {
   border-radius :8px;
 }
+
+.profile{
+  border: 2px solid black;
+
+}
+.rounded-circle{
+
+  border: 2px solid black;
+}
